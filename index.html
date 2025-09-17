@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <h1 id="greeting">Hello 👋</h1>
+
+  <!-- Part 1: Event Handling -->
+  <button id="changeTextBtn">Change Greeting</button>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Counter</h2>
+    <button id="decreaseBtn">-</button>
+    <span id="counterValue">0</span>
+    <button id="increaseBtn">+</button>
+  </section>
+
+  <section>
+    <h2>Dark/Light Mode Toggle</h2>
+    <button id="toggleThemeBtn">Toggle Theme</button>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section class="card">
+    <h2>Signup Form</h2>
+    <form id="signupForm">
+      <label>
+        Name:
+        <input type="text" id="name" name="name">
+      </label>
+      <br>
+      <label>
+        Email:
+        <input type="text" id="email" name="email">
+      </label>
+      <br>
+      <label>
+        Password:
+        <input type="password" id="password" name="password">
+      </label>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
